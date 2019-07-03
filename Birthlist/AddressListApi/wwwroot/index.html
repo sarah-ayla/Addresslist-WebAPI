@@ -7,14 +7,19 @@
         Addresslist
     </title>
     <style>
-        h1 {color: blue;}
-        p {color: black;}
+        h1 {font-family: Arial, sans-serif;
+            color: blue;}
+        p { font-family: Arial, sans-serif;
+            color: black;}
+        h3 {font-family: Arial, sans-serif;}
 
         input[type='submit'], button, [aria-label] {
+            font-family: Arial, sans-serif;
             cursor: pointer;
         }
 
         #spoiler {
+            font-family: Arial, sans-serif;
             display: none;
         }
 
@@ -40,23 +45,27 @@
 
 <body>
     <h1>Addresslist</h1>
-    <p>Here I am trying to give this page a better look and a bigger table.</p>
-    <h3>Add</h3>
+    <p>Here I am trying to give this page a better look and a bigger table.<br>
+    You can see on this table the table content from the SQL database. <br>
+    You also can edit the table on this page and it will change in the database table too.</p>
+    <h3>Here you can add a new firstname, lastname, city and birthdate.</h3>
     <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
         <input type="text" id="add-firstname" placeholder="New Firstname">
         <input type="text" id="add-lastname" placeholder="New Lastname">
         <input type="text" id="add-city" placeholder="New City">
+        <input type="text" id="add-birthdate" placeholder="New Birthdate">
         <input type="submit" value="Add">
     </form>
 
     <div id="spoiler">
-        <h3>Edit</h3>
+        <h3>Here you can edit a row from the table below.</h3>
         <form class="my-form">
-            <input type="text" id="edit-id">
+            <input type="hidden" id="edit-id">
             <input type="checkbox" id="edit-isComplete">
             <input type="text" id="edit-firstname">
             <input type="text" id="edit-lastname">
             <input type="text" id="edit-city">
+            <input type="text" id="edit-birthdate">
             <input type="submit" value="Save">
             <a onclick="closeInut()" aria-label="Close">&#10006;</a>
         </form>
@@ -70,6 +79,7 @@
             <th>Firstname</th>
             <th>Lastname</th>
             <th>City</th>
+            <th>Birthdate</th>
             <th>Edit</th>
             <th>Delete</th>
         </tr>
