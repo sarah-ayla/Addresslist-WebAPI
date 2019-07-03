@@ -44,6 +44,7 @@ function getData() {
                     .append($("<td></td>").text(item.firstname))
                     .append($("<td></td>").text(item.lastname))
                     .append($("<td></td>").text(item.city))
+                    .append($("<td></td>").text(item.birthdate))
                     .append(
                         $("<td></td>").append(
                             $("<button>Edit</button>").on("click", function () {
@@ -72,6 +73,7 @@ function addItem() {
         firstname: $("#add-firstname").val(),
         lastname: $("#add-lastname").val(),
         city: $("#add-city").val(),
+        birthdate: $("#add-birthdate").val(),
         isComplete: false
     };
 
@@ -89,6 +91,7 @@ function addItem() {
             $("#add-firstname").val("");
             $("#add-lastname").val("");
             $("#add-city").val("");
+            $("#add-birthdate").val("");
         }
     });
 }
@@ -109,6 +112,7 @@ function editItem(id) {
             $("#edit-firstname").val(item.firstname);
             $("#edit-lastname").val(item.lastname);
             $("#edit-city").val(item.city);
+            $("#edit-birthdate").val(item.birthdate);
             $("#edit-id").val(item.id);
             $("#edit-isComplete")[0].checked = item.isComplete;
         }
@@ -121,6 +125,7 @@ $(".my-form").on("submit", function () {
         firstname: $("#edit-firstname").val(),
         lastname: $("#edit-lastname").val(),
         city: $("#edit-city").val(),
+        birthdate: $("#edit-birthdate").val(),
         isComplete: $("#edit-isComplete").is(":checked"),
         id: $("#edit-id").val()
     };
