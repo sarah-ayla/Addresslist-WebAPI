@@ -47,14 +47,14 @@ function getData() {
                     .append(
                         $("<td></td>").append(
                             $("<button>Edit</button>").on("click", function () {
-                                editAddress(item.id);
+                                editItem(item.id);
                             })
                         )
                     )
                     .append(
                         $("<td></td>").append(
                             $("<button>Delete</button>").on("click", function () {
-                                deleteAddress(item.id);
+                                deleteItem(item.id);
                             })
                         )
                     );
@@ -70,7 +70,7 @@ function getData() {
 function addItem() {
     const item = {
         firstname: $("#add-firstname").val(),
-        lastename: $("#add-lastname").val(),
+        lastname: $("#add-lastname").val(),
         city: $("#add-city").val(),
         isComplete: false
     };
