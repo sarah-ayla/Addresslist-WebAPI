@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\hungr\\Desktop\\Sarah\\WebAPI_2.0\\Birthlist\\AddressListApi\\AddressListApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hungr\\Desktop\\Sarah\\WebAPI_2.0\\Birthlist\\AddressListApi\\AddressListApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hungr\\Desktop\\Sarah\\WebAPI_2.0\\Birthlist\\AddressListApi\\AddressListApi.csproj",
+        "projectName": "AddressListApi",
+        "projectPath": "C:\\Users\\hungr\\Desktop\\Sarah\\WebAPI_2.0\\Birthlist\\AddressListApi\\AddressListApi.csproj",
+        "packagesPath": "C:\\Users\\hungr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hungr\\Desktop\\Sarah\\WebAPI_2.0\\Birthlist\\AddressListApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hungr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

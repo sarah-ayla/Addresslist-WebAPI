@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Addresslist
+    </title>
+    <style>
+        h1 {color: blue;}
+        p {color: black;}
+
+        input[type='submit'], button, [aria-label] {
+            cursor: pointer;
+        }
+
+        #spoiler {
+            display: none;
+        }
+
+        table {
+            font-family: Arial, sans-serif;
+            border: 1px solid aquamarine;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: blue;
+            border: 1px solid aquamarine;
+            color: white;
+        }
+
+        td {
+            background-color: aquamarine;
+            border: 1px solid blue;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Addresslist</h1>
+    <p>Here I am trying to give this page a better look and a bigger table.</p>
+    <h3>Add</h3>
+    <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
+        <input type="text" id="add-firstname" placeholder="New Firstname">
+        <input type="text" id="add-lastname" placeholder="New Lastname">
+        <input type="text" id="add-city" placeholder="New City">
+        <input type="submit" value="Add">
+    </form>
+
+    <div id="spoiler">
+        <h3>Edit</h3>
+        <form class="my-form">
+            <input type="text" id="edit-id">
+            <input type="checkbox" id="edit-isComplete">
+            <input type="text" id="edit-firstname">
+            <input type="text" id="edit-lastname">
+            <input type="text" id="edit-city">
+            <a onclick="closeInut()" aria-label="Close">&#10006;</a>
+        </form>
+    </div>
+
+    <p id="counter"></p>
+
+    <table>
+        <tr>
+            <th>Is Complete</th>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>City</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        <tbody id="addresslists"></tbody>
+    </table>
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+    
+    <script src="site.js"></script>      
+</body>
+</html>

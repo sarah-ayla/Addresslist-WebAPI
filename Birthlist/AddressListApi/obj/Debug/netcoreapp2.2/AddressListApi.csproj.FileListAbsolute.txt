@@ -1,0 +1,14 @@
+C:\Users\hungr\Desktop\Sarah\WebAPI_2.0\Birthlist\AddressListApi\bin\Debug\netcoreapp2.2\AddressListApi.deps.json
+C:\Users\hungr\Desktop\Sarah\WebAPI_2.0\Birthlist\AddressListApi\bin\Debug\netcoreapp2.2\AddressListApi.runtimeconfig.json
+C:\Users\hungr\Desktop\Sarah\WebAPI_2.0\Birthlist\AddressListApi\bin\Debug\netcoreapp2.2\AddressListApi.runtimeconfig.dev.json
+C:\Users\hungr\Desktop\Sarah\WebAPI_2.0\Birthlist\AddressListApi\bin\Debug\netcoreapp2.2\AddressListApi.dll
+C:\Users\hungr\Desktop\Sarah\WebAPI_2.0\Birthlist\AddressListApi\bin\Debug\netcoreapp2.2\AddressListApi.pdb
+C:\Users\hungr\Desktop\Sarah\WebAPI_2.0\Birthlist\AddressListApi\obj\Debug\netcoreapp2.2\AddressListApi.csprojAssemblyReference.cache
+C:\Users\hungr\Desktop\Sarah\WebAPI_2.0\Birthlist\AddressListApi\obj\Debug\netcoreapp2.2\AddressListApi.csproj.CoreCompileInputs.cache
+C:\Users\hungr\Desktop\Sarah\WebAPI_2.0\Birthlist\AddressListApi\obj\Debug\netcoreapp2.2\AddressListApi.RazorAssemblyInfo.cache
+C:\Users\hungr\Desktop\Sarah\WebAPI_2.0\Birthlist\AddressListApi\obj\Debug\netcoreapp2.2\AddressListApi.RazorAssemblyInfo.cs
+C:\Users\hungr\Desktop\Sarah\WebAPI_2.0\Birthlist\AddressListApi\obj\Debug\netcoreapp2.2\AddressListApi.AssemblyInfoInputs.cache
+C:\Users\hungr\Desktop\Sarah\WebAPI_2.0\Birthlist\AddressListApi\obj\Debug\netcoreapp2.2\AddressListApi.AssemblyInfo.cs
+C:\Users\hungr\Desktop\Sarah\WebAPI_2.0\Birthlist\AddressListApi\obj\Debug\netcoreapp2.2\AddressListApi.RazorTargetAssemblyInfo.cache
+C:\Users\hungr\Desktop\Sarah\WebAPI_2.0\Birthlist\AddressListApi\obj\Debug\netcoreapp2.2\AddressListApi.dll
+C:\Users\hungr\Desktop\Sarah\WebAPI_2.0\Birthlist\AddressListApi\obj\Debug\netcoreapp2.2\AddressListApi.pdb
